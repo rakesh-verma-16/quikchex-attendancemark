@@ -15,6 +15,6 @@
 
 **Feel free to Star and open any issues in case of any unexpected response.**
 
-> PS: Add it to your bash profile for faster attendance marking.
-> Add the following command to your crontab ( `crontab -e` ) to run it automatically every day :P
-> 0 10-19 * * 1-5 python /path-to-qc.py {username} {password} to run it at 10 in the morning and 7 in the evening everyday from Monday to Friday. (Only for educational Purpose)
+- PS: Add it to your bash profile for faster attendance marking.
+- Add the following command to your crontab ( `crontab -e` ) to run it automatically every day :P
+ 0 10-19 * * 1-5 python /path-to-qc.py {username} {password} to run it at 10 in the morning and 7 in the evening everyday from Monday to Friday. (Only for educational Purpose)
