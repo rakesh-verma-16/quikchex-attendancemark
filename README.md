@@ -14,3 +14,5 @@
 *The Script will launch a chrome instance and would log you into your quikchex portal and Mark attendance for you.*
 
 **Feel free to Star and open any issues in case of any unexpected response.**
+
+> PS: Add it to your bash profile for faster attendance marking.
