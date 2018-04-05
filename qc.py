@@ -19,18 +19,7 @@ elem.send_keys(pwd)
 elem.send_keys(Keys.RETURN)
 
 time.sleep(20)
-
-# cookies_list = driver.get_cookies()
-# cookies_dict = {}
-# for cookie in cookies_list:
-#     cookies_dict[cookie['name']] = cookie['value']
-
-# session_id = cookies_dict.get('_session_id')
-# print(session_id)
-
-# elm = driver.find_element_by_css_selector("div.web-punch").click()
 elm = driver.find_element_by_link_text('Mark Attendance')
-# elm = driver.find_element_by_class_name('btn.btn-primary.global-btn-lg.global-btn-md.global-btn-sm.no-margin')
 elm.click()
 
 print """ 
@@ -66,6 +55,4 @@ print """
   |_________________________________|
 
 """
-# print(elm.get_attribute("innerHTML"))
-# driver.get("https://secure.quikchex.in/companies/5689fd3589bcd9783c000054/employees/5a1b99e689bcd95a0e03994a/employee_daily_attendances/create_attendance_record")
 driver.close()
