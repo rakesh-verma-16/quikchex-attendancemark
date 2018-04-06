@@ -4,6 +4,7 @@
 **Dependencies**
   - Python2.7
   - Selenium - pip install selenium
+  - Chromium Driver - brew install chromedriver (if already installed, add it to path - export PATH=$PATH:/path/to/chromedriver/folder)
 
 **Run** -
  /path-to-python-executable /path-to-qc.py {quikchex username} {quikchex password} 
